@@ -23,7 +23,6 @@
    })();
 
 
-  /* ─── DOM READY ─────────────────────────────────── */
   document.addEventListener('DOMContentLoaded', () => {
     initShowcase();   
     initLoader();
