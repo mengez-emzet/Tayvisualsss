@@ -93,7 +93,7 @@
   </div>
 
   <!-- ═══════════════════════════════════════════════════
-       PHOTOGRAPHY SECTION
+       PHOTOGRAPHY SECTION  (slideshow + pricing only)
   ═══════════════════════════════════════════════════ -->
   <section class="svc-category" id="photography">
     <div class="svc-category-header">
@@ -104,8 +104,57 @@
       </div>
     </div>
 
+    <!-- ─── PHOTOGRAPHY SLIDESHOW ─── -->
+    <div class="showcase-wrap" id="photography-slideshow" style="max-width:1400px;margin:0 auto;padding:0 clamp(20px,6vw,80px) 40px;">
+      <div class="showcase showcase--framed" id="photo-showcase">
+        <div class="showcase-slide active" data-dir="left">
+          <img class="showcase-img" src="images/photography-01.jpg" alt="Photography sample 1" data-no-context="true" loading="lazy">
+          <div class="showcase-content">
+            <div class="showcase-cat">Portrait</div>
+            <h3 class="showcase-title">Stillness in <em>focus</em>.</h3>
+          </div>
+        </div>
+        <div class="showcase-slide" data-dir="right">
+          <img class="showcase-img" src="images/photography-02.jpg" alt="Photography sample 2" data-no-context="true" loading="lazy">
+          <div class="showcase-content">
+            <div class="showcase-cat">Studio</div>
+            <h3 class="showcase-title">Light that <em>lingers</em>.</h3>
+          </div>
+        </div>
+        <div class="showcase-slide" data-dir="top">
+          <img class="showcase-img" src="images/photography-03.jpg" alt="Photography sample 3" data-no-context="true" loading="lazy">
+          <div class="showcase-content">
+            <div class="showcase-cat">Outdoor</div>
+            <h3 class="showcase-title">Moments, <em>held</em>.</h3>
+          </div>
+        </div>
+        <div class="showcase-slide" data-dir="bottom">
+          <img class="showcase-img" src="images/photography-04.jpg" alt="Photography sample 4" data-no-context="true" loading="lazy">
+          <div class="showcase-content">
+            <div class="showcase-cat">Event</div>
+            <h3 class="showcase-title">Every frame <em>counts</em>.</h3>
+          </div>
+        </div>
+        <div class="showcase-slide" data-dir="zoom">
+          <img class="showcase-img" src="images/photography-05.jpg" alt="Photography sample 5" data-no-context="true" loading="lazy">
+          <div class="showcase-content">
+            <div class="showcase-cat">Editorial</div>
+            <h3 class="showcase-title">Cinematic <em>stills</em>.</h3>
+          </div>
+        </div>
+
+        <!-- controls -->
+        <div class="showcase-controls">
+          <button class="showcase-arrow" data-showcase-prev aria-label="Previous slide">‹</button>
+          <span class="showcase-counter"><b>01</b> / 05</span>
+          <button class="showcase-arrow" data-showcase-next aria-label="Next slide">›</button>
+        </div>
+        <div class="showcase-progress"><span></span></div>
+      </div>
+    </div>
+
+    <!-- ─── PHOTOGRAPHY PRICING (unchanged) ─── -->
     <div class="svc-new-grid">
-      <!-- Service 1 -->
       <div class="svc-new-card reveal from-bottom">
         <div class="svc-new-card-top">
           <h3 class="svc-new-title">Photoshoot</h3>
@@ -114,7 +163,6 @@
         <p class="svc-new-desc">Studio and outdoor photography sessions.</p>
         <a href="book.html" class="svc-new-btn">Book Now →</a>
       </div>
-      <!-- Service 2 -->
       <div class="svc-new-card reveal from-bottom reveal-delay-1">
         <div class="svc-new-card-top">
           <h3 class="svc-new-title">Birthday Shoots</h3>
@@ -134,7 +182,7 @@
   </div>
 
   <!-- ═══════════════════════════════════════════════════
-       VIDEOGRAPHY SECTION
+       VIDEOGRAPHY SECTION (unchanged)
   ═══════════════════════════════════════════════════ -->
   <section class="svc-category" id="videography">
     <div class="svc-category-header" style="background:var(--off-black)">
@@ -146,132 +194,20 @@
     </div>
 
     <div class="svc-new-grid" style="background:var(--off-black)">
-      <!-- 1 -->
-      <div class="svc-new-card reveal from-bottom">
-        <div class="svc-new-card-top">
-          <h3 class="svc-new-title">Music Videos</h3>
-          <div class="svc-new-price"> $350</div>
-        </div>
-        <p class="svc-new-desc">Performance, narrative and studio music video coverage.</p>
-        <a href="book.html" class="svc-new-btn">Book Now →</a>
-      </div>
-      <!-- 2 -->
-      <div class="svc-new-card reveal from-bottom reveal-delay-1">
-        <div class="svc-new-card-top">
-          <h3 class="svc-new-title">Short Films</h3>
-          <div class="svc-new-price">$400</div>
-        </div>
-        <p class="svc-new-desc">Cinematic short-form storytelling and film production.</p>
-        <a href="book.html" class="svc-new-btn">Book Now →</a>
-      </div>
-      <!-- 3 -->
-      <div class="svc-new-card reveal from-bottom reveal-delay-2">
-        <div class="svc-new-card-top">
-          <h3 class="svc-new-title">Documentaries</h3>
-          <div class="svc-new-price">$400</div>
-        </div>
-        <p class="svc-new-desc">Research-driven documentary capture and editing.</p>
-        <a href="book.html" class="svc-new-btn">Book Now →</a>
-      </div>
-      <!-- 4 -->
-      <div class="svc-new-card reveal from-bottom">
-        <div class="svc-new-card-top">
-          <h3 class="svc-new-title">Cinematic Videos</h3>
-          <div class="svc-new-price">$250</div>
-        </div>
-        <p class="svc-new-desc">High-end cinematic visuals for any story.</p>
-        <a href="book.html" class="svc-new-btn">Book Now →</a>
-      </div>
-      <!-- 5 -->
-      <div class="svc-new-card reveal from-bottom reveal-delay-1">
-        <div class="svc-new-card-top">
-          <h3 class="svc-new-title">Reels</h3>
-          <div class="svc-new-price">$100</div>
-        </div>
-        <p class="svc-new-desc">Short vertical videos for social platforms.</p>
-        <a href="book.html" class="svc-new-btn">Book Now →</a>
-      </div>
-      <!-- 6 -->
-      <div class="svc-new-card reveal from-bottom reveal-delay-2">
-        <div class="svc-new-card-top">
-          <h3 class="svc-new-title">Social Media Content</h3>
-          <div class="svc-new-price">$150</div>
-        </div>
-        <p class="svc-new-desc">Creative content packages for online campaigns.</p>
-        <a href="book.html" class="svc-new-btn">Book Now →</a>
-      </div>
-      <!-- 7 -->
-      <div class="svc-new-card reveal from-bottom">
-        <div class="svc-new-card-top">
-          <h3 class="svc-new-title">Web Series</h3>
-          <div class="svc-new-price">$400</div>
-        </div>
-        <p class="svc-new-desc">Episodic online content production.</p>
-        <a href="book.html" class="svc-new-btn">Book Now →</a>
-      </div>
-      <!-- 8 -->
-      <div class="svc-new-card reveal from-bottom reveal-delay-1">
-        <div class="svc-new-card-top">
-          <h3 class="svc-new-title">Commercials</h3>
-          <div class="svc-new-price">$300</div>
-        </div>
-        <p class="svc-new-desc">Advertising videos designed for conversion.</p>
-        <a href="book.html" class="svc-new-btn">Book Now →</a>
-      </div>
-      <!-- 9 -->
-      <div class="svc-new-card reveal from-bottom reveal-delay-2">
-        <div class="svc-new-card-top">
-          <h3 class="svc-new-title">Product Demos</h3>
-          <div class="svc-new-price">$200</div>
-        </div>
-        <p class="svc-new-desc">Clean product explainers and demonstration videos.</p>
-        <a href="book.html" class="svc-new-btn">Book Now →</a>
-      </div>
-      <!-- 10 -->
-      <div class="svc-new-card reveal from-bottom">
-        <div class="svc-new-card-top">
-          <h3 class="svc-new-title">Brand Videos</h3>
-          <div class="svc-new-price">$250</div>
-        </div>
-        <p class="svc-new-desc">Brand identity videos and client testimonials.</p>
-        <a href="book.html" class="svc-new-btn">Book Now →</a>
-      </div>
-      <!-- 11 -->
-      <div class="svc-new-card reveal from-bottom reveal-delay-1">
-        <div class="svc-new-card-top">
-          <h3 class="svc-new-title">Concerts & Performances</h3>
-          <div class="svc-new-price">$300</div>
-        </div>
-        <p class="svc-new-desc">Stage events, concerts and live performances.</p>
-        <a href="book.html" class="svc-new-btn">Book Now →</a>
-      </div>
-      <!-- 12 -->
-      <div class="svc-new-card reveal from-bottom reveal-delay-2">
-        <div class="svc-new-card-top">
-          <h3 class="svc-new-title">Mic Performances</h3>
-          <div class="svc-new-price">$100</div>
-        </div>
-        <p class="svc-new-desc">Single-performance videos and studio sessions.</p>
-        <a href="book.html" class="svc-new-btn">Book Now →</a>
-      </div>
-      <!-- 13 -->
-      <div class="svc-new-card reveal from-bottom">
-        <div class="svc-new-card-top">
-          <h3 class="svc-new-title">Podcasts</h3>
-          <div class="svc-new-price">$150</div>
-        </div>
-        <p class="svc-new-desc">Podcast filming, audio setup and short clips.</p>
-        <a href="book.html" class="svc-new-btn">Book Now →</a>
-      </div>
-      <!-- 14 -->
-      <div class="svc-new-card reveal from-bottom reveal-delay-1">
-        <div class="svc-new-card-top">
-          <h3 class="svc-new-title">Custom Videos</h3>
-          <div class="svc-new-price">$200</div>
-        </div>
-        <p class="svc-new-desc">Tailor-made content for unique projects.</p>
-        <a href="book.html" class="svc-new-btn">Book Now →</a>
-      </div>
+      <div class="svc-new-card reveal from-bottom"><div class="svc-new-card-top"><h3 class="svc-new-title">Music Videos</h3><div class="svc-new-price"> $350</div></div><p class="svc-new-desc">Performance, narrative and studio music video coverage.</p><a href="book.html" class="svc-new-btn">Book Now →</a></div>
+      <div class="svc-new-card reveal from-bottom reveal-delay-1"><div class="svc-new-card-top"><h3 class="svc-new-title">Short Films</h3><div class="svc-new-price">$400</div></div><p class="svc-new-desc">Cinematic short-form storytelling and film production.</p><a href="book.html" class="svc-new-btn">Book Now →</a></div>
+      <div class="svc-new-card reveal from-bottom reveal-delay-2"><div class="svc-new-card-top"><h3 class="svc-new-title">Documentaries</h3><div class="svc-new-price">$400</div></div><p class="svc-new-desc">Research-driven documentary capture and editing.</p><a href="book.html" class="svc-new-btn">Book Now →</a></div>
+      <div class="svc-new-card reveal from-bottom"><div class="svc-new-card-top"><h3 class="svc-new-title">Cinematic Videos</h3><div class="svc-new-price">$250</div></div><p class="svc-new-desc">High-end cinematic visuals for any story.</p><a href="book.html" class="svc-new-btn">Book Now →</a></div>
+      <div class="svc-new-card reveal from-bottom reveal-delay-1"><div class="svc-new-card-top"><h3 class="svc-new-title">Reels</h3><div class="svc-new-price">$100</div></div><p class="svc-new-desc">Short vertical videos for social platforms.</p><a href="book.html" class="svc-new-btn">Book Now →</a></div>
+      <div class="svc-new-card reveal from-bottom reveal-delay-2"><div class="svc-new-card-top"><h3 class="svc-new-title">Social Media Content</h3><div class="svc-new-price">$150</div></div><p class="svc-new-desc">Creative content packages for online campaigns.</p><a href="book.html" class="svc-new-btn">Book Now →</a></div>
+      <div class="svc-new-card reveal from-bottom"><div class="svc-new-card-top"><h3 class="svc-new-title">Web Series</h3><div class="svc-new-price">$400</div></div><p class="svc-new-desc">Episodic online content production.</p><a href="book.html" class="svc-new-btn">Book Now →</a></div>
+      <div class="svc-new-card reveal from-bottom reveal-delay-1"><div class="svc-new-card-top"><h3 class="svc-new-title">Commercials</h3><div class="svc-new-price">$300</div></div><p class="svc-new-desc">Advertising videos designed for conversion.</p><a href="book.html" class="svc-new-btn">Book Now →</a></div>
+      <div class="svc-new-card reveal from-bottom reveal-delay-2"><div class="svc-new-card-top"><h3 class="svc-new-title">Product Demos</h3><div class="svc-new-price">$200</div></div><p class="svc-new-desc">Clean product explainers and demonstration videos.</p><a href="book.html" class="svc-new-btn">Book Now →</a></div>
+      <div class="svc-new-card reveal from-bottom"><div class="svc-new-card-top"><h3 class="svc-new-title">Brand Videos</h3><div class="svc-new-price">$250</div></div><p class="svc-new-desc">Brand identity videos and client testimonials.</p><a href="book.html" class="svc-new-btn">Book Now →</a></div>
+      <div class="svc-new-card reveal from-bottom reveal-delay-1"><div class="svc-new-card-top"><h3 class="svc-new-title">Concerts & Performances</h3><div class="svc-new-price">$300</div></div><p class="svc-new-desc">Stage events, concerts and live performances.</p><a href="book.html" class="svc-new-btn">Book Now →</a></div>
+      <div class="svc-new-card reveal from-bottom reveal-delay-2"><div class="svc-new-card-top"><h3 class="svc-new-title">Mic Performances</h3><div class="svc-new-price">$100</div></div><p class="svc-new-desc">Single-performance videos and studio sessions.</p><a href="book.html" class="svc-new-btn">Book Now →</a></div>
+      <div class="svc-new-card reveal from-bottom"><div class="svc-new-card-top"><h3 class="svc-new-title">Podcasts</h3><div class="svc-new-price">$150</div></div><p class="svc-new-desc">Podcast filming, audio setup and short clips.</p><a href="book.html" class="svc-new-btn">Book Now →</a></div>
+      <div class="svc-new-card reveal from-bottom reveal-delay-1"><div class="svc-new-card-top"><h3 class="svc-new-title">Custom Videos</h3><div class="svc-new-price">$200</div></div><p class="svc-new-desc">Tailor-made content for unique projects.</p><a href="book.html" class="svc-new-btn">Book Now →</a></div>
     </div>
   </section>
 
@@ -283,7 +219,7 @@
   </div>
 
   <!-- ═══════════════════════════════════════════════════
-       HYBRID / EVENTS SECTION
+       HYBRID / EVENTS SECTION (unchanged)
   ═══════════════════════════════════════════════════ -->
   <section class="svc-category" id="hybrid">
     <div class="svc-category-header">
@@ -295,51 +231,11 @@
     </div>
 
     <div class="svc-new-grid">
-      <!-- 1 -->
-      <div class="svc-new-card reveal from-bottom">
-        <div class="svc-new-card-top">
-          <h3 class="svc-new-title">Weddings</h3>
-          <div class="svc-new-price">$400</div>
-        </div>
-        <p class="svc-new-desc">Wedding highlight films and photography coverage.</p>
-        <a href="book.html" class="svc-new-btn">Book Now →</a>
-      </div>
-      <!-- 2 -->
-      <div class="svc-new-card reveal from-bottom reveal-delay-1">
-        <div class="svc-new-card-top">
-          <h3 class="svc-new-title">Lobola</h3>
-          <div class="svc-new-price">$300</div>
-        </div>
-        <p class="svc-new-desc">Traditional ceremony coverage with cinematic detail.</p>
-        <a href="book.html" class="svc-new-btn">Book Now →</a>
-      </div>
-      <!-- 3 -->
-      <div class="svc-new-card reveal from-bottom reveal-delay-2">
-        <div class="svc-new-card-top">
-          <h3 class="svc-new-title">Events</h3>
-          <div class="svc-new-price">$250</div>
-        </div>
-        <p class="svc-new-desc">Corporate events, launches and public gatherings.</p>
-        <a href="book.html" class="svc-new-btn">Book Now →</a>
-      </div>
-      <!-- 4 -->
-      <div class="svc-new-card reveal from-bottom">
-        <div class="svc-new-card-top">
-          <h3 class="svc-new-title">Exclusive Events</h3>
-          <div class="svc-new-price">$400</div>
-        </div>
-        <p class="svc-new-desc">Premium event coverage with priority delivery.</p>
-        <a href="book.html" class="svc-new-btn">Book Now →</a>
-      </div>
-      <!-- 5 -->
-      <div class="svc-new-card reveal from-bottom reveal-delay-1">
-        <div class="svc-new-card-top">
-          <h3 class="svc-new-title">Corporate Work</h3>
-          <div class="svc-new-price">$350</div>
-        </div>
-        <p class="svc-new-desc">Company profiles, adverts and professional brand stories.</p>
-        <a href="book.html" class="svc-new-btn">Book Now →</a>
-      </div>
+      <div class="svc-new-card reveal from-bottom"><div class="svc-new-card-top"><h3 class="svc-new-title">Weddings</h3><div class="svc-new-price">$400</div></div><p class="svc-new-desc">Wedding highlight films and photography coverage.</p><a href="book.html" class="svc-new-btn">Book Now →</a></div>
+      <div class="svc-new-card reveal from-bottom reveal-delay-1"><div class="svc-new-card-top"><h3 class="svc-new-title">Lobola</h3><div class="svc-new-price">$300</div></div><p class="svc-new-desc">Traditional ceremony coverage with cinematic detail.</p><a href="book.html" class="svc-new-btn">Book Now →</a></div>
+      <div class="svc-new-card reveal from-bottom reveal-delay-2"><div class="svc-new-card-top"><h3 class="svc-new-title">Events</h3><div class="svc-new-price">$250</div></div><p class="svc-new-desc">Corporate events, launches and public gatherings.</p><a href="book.html" class="svc-new-btn">Book Now →</a></div>
+      <div class="svc-new-card reveal from-bottom"><div class="svc-new-card-top"><h3 class="svc-new-title">Exclusive Events</h3><div class="svc-new-price">$400</div></div><p class="svc-new-desc">Premium event coverage with priority delivery.</p><a href="book.html" class="svc-new-btn">Book Now →</a></div>
+      <div class="svc-new-card reveal from-bottom reveal-delay-1"><div class="svc-new-card-top"><h3 class="svc-new-title">Corporate Work</h3><div class="svc-new-price">$350</div></div><p class="svc-new-desc">Company profiles, adverts and professional brand stories.</p><a href="book.html" class="svc-new-btn">Book Now →</a></div>
     </div>
   </section>
 
@@ -347,13 +243,11 @@
   <div class="cta-band">
     <div class="cta-band-grain"></div>
     <h2 class="cta-band-title reveal from-bottom">Not sure which service? <em>Let's talk.</em></h2>
-    
     <div class="cta-band-actions reveal from-bottom reveal-delay-2" style="position: relative; z-index: 10;">
-      <a class="btn-dark" href="contact.html" onclick="window.location.href='contact.html'; return false;">Contact Us</a>
-      <a class="btn-outline-dark" href="book.html" onclick="window.location.href='book.html'; return false;">Book A Shot</a>
+      <a class="btn-dark" href="contact.html">Contact Us</a>
+      <a class="btn-outline-dark" href="book.html">Book A Shot</a>
     </div>
   </div>
-
 </main>
 
 <!-- ─── FOOTER ─── -->
@@ -405,7 +299,7 @@
       <p class="footer-credit">
         Visuals by <span class="footer-credit-brand">Tayvisualss</span>
         <span class="footer-credit-divider">×</span>
-        Website Engineered by <a href="https://mengezemzet.co.zw" target="_blank" rel="noopener" class="footer-credit-link">Mengez Emzet</a>
+        Website Engineered by <a href="https://mengez-emzet.github.io/mengezemzet.co.zw/" target="_blank" rel="noopener" class="footer-credit-link">Mengez Emzet</a>
       </p>
       <p class="footer-tagline">You imagine it, we visualize it.</p>
     </div>
@@ -413,8 +307,9 @@
 </footer>
 
 <script src="script.js"></script>
+<script src="script.js"></script>
 <script>
-/* ─── CUSTOM SCROLL SPY FOR SERVICES ─── */
+/* ─── MANUAL CATEGORY TABS (NO AUTO-CONTINUITY) ─── */
 (function() {
   const tabs = document.querySelectorAll('.svc-tab');
   const sections = {
@@ -422,45 +317,74 @@
     videography: document.getElementById('videography'),
     hybrid: document.getElementById('hybrid')
   };
-  
-  // Click logic
+
+  // Click = jump to that section ONLY. No scroll-spy chaining.
   tabs.forEach(tab => {
     tab.addEventListener('click', () => {
       const target = sections[tab.dataset.target];
       if (!target) return;
-      const tabsHeight = document.getElementById('svc-tabs').offsetHeight;
-      const navHeight = document.getElementById('navbar')?.offsetHeight || 76;
-      const offset = tabsHeight + navHeight + 20;
-      const top = target.getBoundingClientRect().top + window.scrollY - offset;
+
+      // Update active tab
+      tabs.forEach(t => t.classList.remove('active'));
+      tab.classList.add('active');
+
+      const tabsHeight = document.getElementById('svc-tabs')?.offsetHeight || 0;
+      const navHeight  = document.getElementById('navbar')?.offsetHeight || 76;
+      const offset     = tabsHeight + navHeight + 20;
+      const top        = target.getBoundingClientRect().top + window.scrollY - offset;
+
       window.scrollTo({ top, behavior: 'smooth' });
     });
   });
-  
-  // Scroll spy logic
-  function updateActiveTab() {
-    const tabsEl = document.getElementById('svc-tabs');
-    const navHeight = document.getElementById('navbar')?.offsetHeight || 76;
-    const tabsHeight = tabsEl?.offsetHeight || 0;
-    const offset = navHeight + tabsHeight + 60;
-    
-    let activeSection = 'photography';
-    
-    Object.entries(sections).forEach(([key, el]) => {
-      if (!el) return;
-      const rect = el.getBoundingClientRect();
-      if (rect.top <= offset) {
-        activeSection = key;
-      }
+
+  /* ─── PHOTOGRAPHY SLIDESHOW ─── */
+  const showcase = document.getElementById('photo-showcase');
+  if (showcase) {
+    const slides   = showcase.querySelectorAll('.showcase-slide');
+    const prevBtn  = showcase.querySelector('[data-showcase-prev]');
+    const nextBtn  = showcase.querySelector('[data-showcase-next]');
+    const counter  = showcase.querySelector('.showcase-counter b');
+    const progress = showcase.querySelector('.showcase-progress span');
+    const DELAY    = 5500;
+    let index      = 0;
+    let timer      = null;
+
+    function goTo(i) {
+      slides[index].classList.remove('active');
+      index = (i + slides.length) % slides.length;
+      slides[index].classList.add('active');
+      if (counter) counter.textContent = String(index + 1).padStart(2, '0');
+      restartProgress();
+      restartTimer();
+    }
+
+    function restartProgress() {
+      if (!progress) return;
+      progress.style.animation = 'none';
+      void progress.offsetWidth;
+      progress.style.animation = '';
+    }
+
+    function restartTimer() {
+      clearInterval(timer);
+      timer = setInterval(() => goTo(index + 1), DELAY);
+    }
+
+    if (prevBtn) prevBtn.addEventListener('click', () => goTo(index - 1));
+    if (nextBtn) nextBtn.addEventListener('click', () => goTo(index + 1));
+
+    // pause on hover
+    showcase.addEventListener('mouseenter', () => {
+      clearInterval(timer);
+      showcase.classList.add('paused');
     });
-    
-    tabs.forEach(tab => {
-      tab.classList.toggle('active', tab.dataset.target === activeSection);
+    showcase.addEventListener('mouseleave', () => {
+      showcase.classList.remove('paused');
+      restartTimer();
     });
+
+    restartTimer();
   }
-  
-  window.addEventListener('scroll', updateActiveTab, { passive: true });
-  window.addEventListener('resize', updateActiveTab, { passive: true });
-  updateActiveTab();
 })();
 </script>
 </body>
