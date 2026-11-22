@@ -264,9 +264,12 @@
   <div class="cta-band">
     <div class="cta-band-grain"></div>
     <h2 class="cta-band-title reveal from-bottom">Want to be in <em>this portfolio</em>?</h2>
-    <div class="cta-band-actions reveal from-bottom reveal-delay-2">
-      <a class="btn-dark" href="book.html" data-page="book">Book A Shot</a>
-      <a class="btn-outline-light" href="contact.html" data-page="contact">Talk First</a>
+    
+    <div class="cta-band-actions reveal from-bottom reveal-delay-2" style="position: relative; z-index: 10;">
+      <a class="btn-dark" href="book.html" onclick="window.location.href='book.html'; return false;">Book A Shot</a>
+      
+      <!-- Changed from btn-outline-light to btn-outline-dark -->
+      <a class="btn-outline-dark" href="contact.html" onclick="window.location.href='contact.html'; return false;">Talk First</a>
     </div>
   </div>
  

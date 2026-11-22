@@ -12,10 +12,12 @@
   --off-black: #111111;
   --dark-grey: #1a1a1a;
   --mid-grey: #2e2e2e;
-  --light-grey: #6b6b6b;
-  --silver: #a8a8a8;
-  --off-white: #e8e8e8;
-  --white: #f5f5f5;
+  --light-grey: #b0b0b0;      /* keep for very muted hints, or brighten below */
+
+  /* ↓ BRIGHTENED TEXT COLORS ↓ */
+  --silver: #cccccc;          /* was #a8a8a8 — brighter secondary text */
+  --off-white: #ffffff;       /* was #e8e8e8 — now pure bright white body text */
+  --white: #ffffff;           /* keep pure white headings */
   --pure-white: #ffffff;
 
   --font-display: 'Cormorant Garamond', serif;
@@ -35,7 +37,8 @@
 html { scroll-behavior: smooth; font-size: 16px; }
 body {
   background: var(--black);
-  color: var(--off-white);
+  /* color: var(--off-white); */
+  color: #ffffff;
   font-family: var(--font-body);
   font-weight: 400;
   line-height: 1.6;
